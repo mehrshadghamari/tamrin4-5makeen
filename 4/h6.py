@@ -1,0 +1,5 @@
+a=input('enter  words and separate whit - ')
+b=a.split("-")
+b.sort()
+c=" ".join(b)
+print(c)
